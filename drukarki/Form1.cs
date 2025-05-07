@@ -13,21 +13,21 @@ namespace drukarki
     {
         private List<(string printerName, string ipAddress)> printers = new List<(string, string)>
         {
-            ("Pietro I Cz. B", "172.16.153.1"),
-            ("Pietro II Cz. B", "172.16.153.2"),
-            ("Pietro I Cz. A", "172.16.153.3"),
-            ("Parter Cz. A", "172.16.153.4"),
-            ("Pietro II Cz. B KOLOR", "172.16.153.5"),
-            ("Ksiegowosc", "172.16.153.6"),
-            ("Kadry", "172.16.153.8"),
-            ("Ksiegowosc B16", "172.16.153.9"),
-            ("ZZP", "172.16.153.10"),
-            ("Sekretariat KOLOR", "172.16.153.11"),
-            ("Parter Cz. B", "172.16.153.12"),
-            ("Parter Cz. B KOLOR", "172.16.153.13"),
-            ("Pietro I Cz. B KOLOR", "172.16.153.14"),
-            ("Pietro I Cz. A KOLOR", "172.16.153.15"),
-            ("Młynarska", "172.16.162.1")
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP"),
+            ("Nazwa drukarki", "adres IP")
         };
 
         public Form1()
@@ -233,7 +233,7 @@ namespace drukarki
                                 "2. Kliknij przycisk 'Dodaj'.\n" +
                                 "3. Poczekaj, aż program zakończy instalację sterowników oraz konfigurację drukarki.\n" +
                                 "4. Po zakończeniu instalacji drukarka będzie gotowa do użycia.\n\n" +
-                                "W przypadku pytań lub problemów, prosimy o kontakt: wsparcie@ibe.edu.pl";
+                                "W przypadku pytań lub problemów, prosimy o kontakt: wsparcie@";
             MessageBox.Show(instrukcja, "Pomoc", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
@@ -245,7 +245,7 @@ namespace drukarki
                   "Autor: Jakub Wojciechowski\n" +
                   "Instytucja: Instytut Badań Edukacyjnych\n\n" +
                   "Aplikacja umożliwia szybkie i automatyczne dodawanie drukarek wraz z odpowiednimi sterownikami.\n\n" +
-                  "Wszelkie pytania i zgłoszenia błędów prosimy kierować na adres: wsparcie@ibe.edu.pl";
+                  "Wszelkie pytania i zgłoszenia błędów prosimy kierować na adres: wsparcie@";
             MessageBox.Show(info, "Informacje o aplikacji", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
