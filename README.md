@@ -2,7 +2,7 @@
 
 Drukarki instalator to lekka, przenośna aplikacja stworzona z myślą o uproszczeniu procesu dodawania drukarek sieciowych na laptopach firmowych. Nie wymaga instalacji – działa bezpośrednio z pendrive'a, co pozwala szybko i wygodnie dodać odpowiednią drukarkę, bez potrzeby ręcznego klikania w ustawienia systemowe. Jest również opcja instalacji aplikacji na każdej stacji roboczej u pracowników tak aby użytkownicy mogli sami dodawać sobie drukarki. Aplikacja dodaje drukarki po protokole TCP/IP oraz wgrywa niezbędny sterownik.
 
-//Funkcjonalności
+//Funkcjonalności:
 ✅ Dodawanie drukarek sieciowych jednym kliknięciem
 
 ✅ Możliwość konfiguracji grupy drukarek dla konkretnego działu (np. KADRY, FINANSE, KUCHNIA)
